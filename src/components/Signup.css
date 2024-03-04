@@ -1,0 +1,115 @@
+body{
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.auth-container{
+    padding-top:15px;
+    display:flex;
+    flex-direction: column;
+    max-width:500px;
+    background-color: Purple;
+    margin:auto;
+    padding-bottom:40px;
+    margin-top:10%;
+    transition: all 0.5s;
+}
+
+.auth-container:hover{
+    border-radius:10px;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+input{
+    align-items: center;
+    min-width:300px;
+    justify-content: center;
+    text-align:center;
+    margin:auto;
+    border:none;
+    padding:5px 5px;
+    
+    
+}
+
+label{
+    color:gold;
+    font-size: medium;
+    margin-bottom:10px;
+}
+
+h1{
+    margin-bottom:50px;
+    color:lightblue;
+    font-style: italic;
+    margin:0;
+}
+
+h2{
+    margin:0;
+    color:lightgreen;
+    transition: all 1s;
+}
+
+h2:hover{
+    color:black;
+}
+
+.welcome-container{
+    margin:0;
+    margin-bottom:20px;
+}
+
+.log-in-btn{
+    border:none;
+    background-color:black;
+    color:white;
+    padding:10px 15px;
+    margin-top:30px;
+    transition: all 0.5s;
+    font-size:medium;
+}
+
+.log-in-btn:hover{
+    background-color:white;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.sign-up-btn{
+    border:none;
+    background-color:black;
+    color:white;
+    padding:10px 11px;
+    margin-top:30px;
+    transition: all 0.5s;
+    font-size:medium;
+    margin:10px;
+}
+
+.sign-up-btn:hover{
+    background-color:white;
+    color:black;
+    padding:10px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.shop-logo-login{
+    width:40px;
+    margin:0;
+}
+
+@media screen and (max-width:900px){
+    .auth-container{
+        margin-top:20%;
+    }
+    
+}

@@ -1,0 +1,16 @@
+.auth-bot-box{
+    color:black;
+}
+
+.auth-bot-btn{
+    border:none;
+    background-color: lightgreen;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+
+.auth-bot-btn:hover{
+    background-color: black;
+    color:white;
+    padding:5px 5px;
+}
